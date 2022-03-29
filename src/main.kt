@@ -1,11 +1,11 @@
 fun main(){
-    var food = human("Rosemary",23,52)
-    food.eat(10)
+    var food = human("Suhaila",23,57)
+    food.eat(2)
     println(food.weight)
-    food.speak("I am a Programmer.")
+    food.speak("I am Magnanimous.")
     food.birthday()
     println(food.age)
-    var info = user("Miriam","Njoroge","kakirosemary@gmail.com",
+    var info = user("Hakan","Alaynah","suhailayusuf1999@gmail.com",
         254799864112L,"254flowbird")
     println(info.email)
     println(info.firstName)

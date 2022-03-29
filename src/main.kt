@@ -1,19 +1,19 @@
 fun main(){
-    var food = human("Suhaila",23,57)
-    food.eat(2)
-    println(food.weight)
-    food.speak("I am Magnanimous.")
-    food.birthday()
-    println(food.age)
+    var studies= human("Suhaila",23,57)
+    studies.eat(2)
+    println(studies.weight)
+    studies.speak("I am Magnanimous.")
+    studies.birthday()
+    println(studies.age)
     var info = user("Hakan","Alaynah","suhailayusuf1999@gmail.com",
         254799864112L,"254flowbird")
     println(info.email)
     println(info.firstName)
 }
 class human(var name: String,var age: Int,var weight: Int){
-    fun eat(foodWeight: Int): Int{
-        weight += foodWeight
-        println("I am eating $foodWeight Kgs of food.")
+    fun eat(studiesWeight: Int): Int{
+        weight += studiesWeight
+        println("I am eating $studiesWeight Kgs of food.")
         return weight
     }
     fun speak(speach: String){

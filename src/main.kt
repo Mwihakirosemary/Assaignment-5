@@ -1,6 +1,6 @@
 fun main(){
     var foodd = human("Suhaila",23,57)
-    foodd.eat(2)
+    foodd.eat(3)
     println(food.weight)
     foodd.speak("I am Magnanimous.")
     foodd.birthday()
